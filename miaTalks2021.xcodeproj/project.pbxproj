@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E09F8159264C77EB00648FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F8158264C77EB00648FF9 /* AppDelegate.swift */; };
+		E09F815B264C77EB00648FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F815A264C77EB00648FF9 /* SceneDelegate.swift */; };
+		E09F815D264C77EB00648FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F815C264C77EB00648FF9 /* ViewController.swift */; };
+		E09F8160264C77EB00648FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09F815E264C77EB00648FF9 /* Main.storyboard */; };
+		E09F8162264C77EC00648FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09F8161264C77EC00648FF9 /* Assets.xcassets */; };
+		E09F8165264C77EC00648FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09F8163264C77EC00648FF9 /* LaunchScreen.storyboard */; };
+		E09F8170264C77ED00648FF9 /* miaTalks2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F816F264C77ED00648FF9 /* miaTalks2021Tests.swift */; };
+		E09F817B264C77ED00648FF9 /* miaTalks2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F817A264C77ED00648FF9 /* miaTalks2021UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E09F816C264C77ED00648FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E09F814D264C77EB00648FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E09F8154264C77EB00648FF9;
+			remoteInfo = miaTalks2021;
+		};
+		E09F8177264C77ED00648FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E09F814D264C77EB00648FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E09F8154264C77EB00648FF9;
+			remoteInfo = miaTalks2021;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E09F8155264C77EB00648FF9 /* miaTalks2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miaTalks2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09F8158264C77EB00648FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E09F815A264C77EB00648FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E09F815C264C77EB00648FF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E09F815F264C77EB00648FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E09F8161264C77EC00648FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E09F8164264C77EC00648FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E09F8166264C77EC00648FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09F816B264C77ED00648FF9 /* miaTalks2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miaTalks2021Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09F816F264C77ED00648FF9 /* miaTalks2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miaTalks2021Tests.swift; sourceTree = "<group>"; };
+		E09F8171264C77ED00648FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09F8176264C77ED00648FF9 /* miaTalks2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miaTalks2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09F817A264C77ED00648FF9 /* miaTalks2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miaTalks2021UITests.swift; sourceTree = "<group>"; };
+		E09F817C264C77ED00648FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E09F8152264C77EB00648FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09F8168264C77ED00648FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09F8173264C77ED00648FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E09F814C264C77EB00648FF9 = {
+			isa = PBXGroup;
+			children = (
+				E09F8157264C77EB00648FF9 /* miaTalks2021 */,
+				E09F816E264C77ED00648FF9 /* miaTalks2021Tests */,
+				E09F8179264C77ED00648FF9 /* miaTalks2021UITests */,
+				E09F8156264C77EB00648FF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E09F8156264C77EB00648FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E09F8155264C77EB00648FF9 /* miaTalks2021.app */,
+				E09F816B264C77ED00648FF9 /* miaTalks2021Tests.xctest */,
+				E09F8176264C77ED00648FF9 /* miaTalks2021UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E09F8157264C77EB00648FF9 /* miaTalks2021 */ = {
+			isa = PBXGroup;
+			children = (
+				E09F8158264C77EB00648FF9 /* AppDelegate.swift */,
+				E09F815A264C77EB00648FF9 /* SceneDelegate.swift */,
+				E09F815C264C77EB00648FF9 /* ViewController.swift */,
+				E09F815E264C77EB00648FF9 /* Main.storyboard */,
+				E09F8161264C77EC00648FF9 /* Assets.xcassets */,
+				E09F8163264C77EC00648FF9 /* LaunchScreen.storyboard */,
+				E09F8166264C77EC00648FF9 /* Info.plist */,
+			);
+			path = miaTalks2021;
+			sourceTree = "<group>";
+		};
+		E09F816E264C77ED00648FF9 /* miaTalks2021Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E09F816F264C77ED00648FF9 /* miaTalks2021Tests.swift */,
+				E09F8171264C77ED00648FF9 /* Info.plist */,
+			);
+			path = miaTalks2021Tests;
+			sourceTree = "<group>";
+		};
+		E09F8179264C77ED00648FF9 /* miaTalks2021UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E09F817A264C77ED00648FF9 /* miaTalks2021UITests.swift */,
+				E09F817C264C77ED00648FF9 /* Info.plist */,
+			);
+			path = miaTalks2021UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E09F8154264C77EB00648FF9 /* miaTalks2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09F817F264C77ED00648FF9 /* Build configuration list for PBXNativeTarget "miaTalks2021" */;
+			buildPhases = (
+				E09F8151264C77EB00648FF9 /* Sources */,
+				E09F8152264C77EB00648FF9 /* Frameworks */,
+				E09F8153264C77EB00648FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = miaTalks2021;
+			productName = miaTalks2021;
+			productReference = E09F8155264C77EB00648FF9 /* miaTalks2021.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E09F816A264C77ED00648FF9 /* miaTalks2021Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09F8182264C77ED00648FF9 /* Build configuration list for PBXNativeTarget "miaTalks2021Tests" */;
+			buildPhases = (
+				E09F8167264C77ED00648FF9 /* Sources */,
+				E09F8168264C77ED00648FF9 /* Frameworks */,
+				E09F8169264C77ED00648FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E09F816D264C77ED00648FF9 /* PBXTargetDependency */,
+			);
+			name = miaTalks2021Tests;
+			productName = miaTalks2021Tests;
+			productReference = E09F816B264C77ED00648FF9 /* miaTalks2021Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E09F8175264C77ED00648FF9 /* miaTalks2021UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09F8185264C77ED00648FF9 /* Build configuration list for PBXNativeTarget "miaTalks2021UITests" */;
+			buildPhases = (
+				E09F8172264C77ED00648FF9 /* Sources */,
+				E09F8173264C77ED00648FF9 /* Frameworks */,
+				E09F8174264C77ED00648FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E09F8178264C77ED00648FF9 /* PBXTargetDependency */,
+			);
+			name = miaTalks2021UITests;
+			productName = miaTalks2021UITests;
+			productReference = E09F8176264C77ED00648FF9 /* miaTalks2021UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E09F814D264C77EB00648FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E09F8154264C77EB00648FF9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E09F816A264C77ED00648FF9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E09F8154264C77EB00648FF9;
+					};
+					E09F8175264C77ED00648FF9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E09F8154264C77EB00648FF9;
+					};
+				};
+			};
+			buildConfigurationList = E09F8150264C77EB00648FF9 /* Build configuration list for PBXProject "miaTalks2021" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E09F814C264C77EB00648FF9;
+			productRefGroup = E09F8156264C77EB00648FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E09F8154264C77EB00648FF9 /* miaTalks2021 */,
+				E09F816A264C77ED00648FF9 /* miaTalks2021Tests */,
+				E09F8175264C77ED00648FF9 /* miaTalks2021UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E09F8153264C77EB00648FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F8165264C77EC00648FF9 /* LaunchScreen.storyboard in Resources */,
+				E09F8162264C77EC00648FF9 /* Assets.xcassets in Resources */,
+				E09F8160264C77EB00648FF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09F8169264C77ED00648FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09F8174264C77ED00648FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E09F8151264C77EB00648FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F815D264C77EB00648FF9 /* ViewController.swift in Sources */,
+				E09F8159264C77EB00648FF9 /* AppDelegate.swift in Sources */,
+				E09F815B264C77EB00648FF9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09F8167264C77ED00648FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F8170264C77ED00648FF9 /* miaTalks2021Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09F8172264C77ED00648FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F817B264C77ED00648FF9 /* miaTalks2021UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E09F816D264C77ED00648FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E09F8154264C77EB00648FF9 /* miaTalks2021 */;
+			targetProxy = E09F816C264C77ED00648FF9 /* PBXContainerItemProxy */;
+		};
+		E09F8178264C77ED00648FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E09F8154264C77EB00648FF9 /* miaTalks2021 */;
+			targetProxy = E09F8177264C77ED00648FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E09F815E264C77EB00648FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E09F815F264C77EB00648FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E09F8163264C77EC00648FF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E09F8164264C77EC00648FF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E09F817D264C77ED00648FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E09F817E264C77ED00648FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E09F8180264C77ED00648FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = miaTalks2021/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.miaTalks2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E09F8181264C77ED00648FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = miaTalks2021/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.miaTalks2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E09F8183264C77ED00648FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = miaTalks2021Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.miaTalks2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miaTalks2021.app/miaTalks2021";
+			};
+			name = Debug;
+		};
+		E09F8184264C77ED00648FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = miaTalks2021Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.miaTalks2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/miaTalks2021.app/miaTalks2021";
+			};
+			name = Release;
+		};
+		E09F8186264C77ED00648FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = miaTalks2021UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.miaTalks2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = miaTalks2021;
+			};
+			name = Debug;
+		};
+		E09F8187264C77ED00648FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = miaTalks2021UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoeyRubin.miaTalks2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = miaTalks2021;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E09F8150264C77EB00648FF9 /* Build configuration list for PBXProject "miaTalks2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09F817D264C77ED00648FF9 /* Debug */,
+				E09F817E264C77ED00648FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09F817F264C77ED00648FF9 /* Build configuration list for PBXNativeTarget "miaTalks2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09F8180264C77ED00648FF9 /* Debug */,
+				E09F8181264C77ED00648FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09F8182264C77ED00648FF9 /* Build configuration list for PBXNativeTarget "miaTalks2021Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09F8183264C77ED00648FF9 /* Debug */,
+				E09F8184264C77ED00648FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09F8185264C77ED00648FF9 /* Build configuration list for PBXNativeTarget "miaTalks2021UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09F8186264C77ED00648FF9 /* Debug */,
+				E09F8187264C77ED00648FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E09F814D264C77EB00648FF9 /* Project object */;
+}
