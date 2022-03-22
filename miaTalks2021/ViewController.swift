@@ -64,9 +64,10 @@ class ViewController: UIViewController {
         monsterButton.backgroundColor = UIColor.clear
     }
     
-    func eraseThis(){
-        let justATest = 0
-        print(justATest)
+   
+    func eraseThisToo(){
+        let anotherTest = 0
+        print(anotherTest)
     }
 }
 
