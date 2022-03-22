@@ -56,10 +56,18 @@ class ViewController: UIViewController {
         
     }
     
+    
+    
     func updateUI () {
         humanButton.backgroundColor = UIColor.clear
         robotButton.backgroundColor = UIColor.clear
         monsterButton.backgroundColor = UIColor.clear
     }
+    
+    func eraseThis(){
+        let justATest = 0
+        print(justATest)
+    }
 }
+
 
