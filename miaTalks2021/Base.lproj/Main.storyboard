@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,157 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="miaTalks2021" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="UUA-d2-FVK" userLabel="Middle Stack">
+                                <rect key="frame" x="0.0" y="150" width="414" height="596"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="KoQ-UK-Eji">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="197.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJW-Hj-miU">
+                                                <rect key="frame" x="0.0" y="0.0" width="206" height="197.5"/>
+                                                <color key="backgroundColor" name="customOrangeColor"/>
+                                                <state key="normal" title="IceCream" image="iceCream"/>
+                                                <connections>
+                                                    <action selector="buttonPressedAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gJj-es-XgG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53E-8M-Jjm">
+                                                <rect key="frame" x="208" y="0.0" width="206" height="197.5"/>
+                                                <color key="backgroundColor" name="customOrangeColor"/>
+                                                <state key="normal" title="CanBroccoli" image="broccoli"/>
+                                                <connections>
+                                                    <action selector="buttonPressedAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d8A-KG-e95"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="RUb-oG-ebn">
+                                        <rect key="frame" x="0.0" y="199.5" width="414" height="197"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ih1-vu-eNm">
+                                                <rect key="frame" x="0.0" y="0.0" width="206" height="197"/>
+                                                <color key="backgroundColor" name="customOrangeColor"/>
+                                                <state key="normal" title="CanCarrot" image="carrots"/>
+                                                <connections>
+                                                    <action selector="buttonPressedAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kyZ-DE-Kbo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4J5-po-17C">
+                                                <rect key="frame" x="208" y="0.0" width="206" height="197"/>
+                                                <color key="backgroundColor" name="customOrangeColor"/>
+                                                <state key="normal" title="CanCookie" image="cookie"/>
+                                                <connections>
+                                                    <action selector="buttonPressedAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rkQ-oe-Cmw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="kRd-YA-UvR">
+                                        <rect key="frame" x="0.0" y="398.5" width="414" height="197.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y80-IK-Hyk">
+                                                <rect key="frame" x="0.0" y="0.0" width="206" height="197.5"/>
+                                                <color key="backgroundColor" name="customOrangeColor"/>
+                                                <state key="normal" title="CanCereal" image="cereal"/>
+                                                <connections>
+                                                    <action selector="buttonPressedAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NYq-lS-5US"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpo-AM-oWG">
+                                                <rect key="frame" x="208" y="0.0" width="206" height="197.5"/>
+                                                <color key="backgroundColor" name="customOrangeColor"/>
+                                                <state key="normal" title="CanHamburger" image="burger"/>
+                                                <connections>
+                                                    <action selector="buttonPressedAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tvj-Es-UqJ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KPe-T9-3PK" userLabel="Bottom Stack">
+                                <rect key="frame" x="30" y="756" width="354" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbF-oe-bpw">
+                                        <rect key="frame" x="0.0" y="0.0" width="118" height="110"/>
+                                        <state key="normal" title="Human" image="humanFace"/>
+                                        <connections>
+                                            <action selector="soundTypePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0hI-Ku-AFH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVq-uY-UYl">
+                                        <rect key="frame" x="118" y="0.0" width="118" height="110"/>
+                                        <state key="normal" title="Robot" image="robotFace"/>
+                                        <connections>
+                                            <action selector="soundTypePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wej-uN-lGe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VV1-QE-4Yz">
+                                        <rect key="frame" x="236" y="0.0" width="118" height="110"/>
+                                        <state key="normal" title="Monster" image="alienFace"/>
+                                        <connections>
+                                            <action selector="soundTypePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0W-Py-QOi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="customBlueGreenColor"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   I am hungry..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR8-eF-ka4">
+                                <rect key="frame" x="0.0" y="91" width="414" height="56"/>
+                                <color key="backgroundColor" name="customOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eR8-eF-ka4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0ZB-Af-pWz"/>
+                            <constraint firstItem="eR8-eF-ka4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="34g-S7-pNh"/>
+                            <constraint firstItem="UUA-d2-FVK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Axl-hX-ufh"/>
+                            <constraint firstItem="eR8-eF-ka4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="91" id="D1w-gf-siC"/>
+                            <constraint firstAttribute="bottom" secondItem="UUA-d2-FVK" secondAttribute="bottom" constant="150" id="JGw-Dv-rxD"/>
+                            <constraint firstItem="UUA-d2-FVK" firstAttribute="top" secondItem="eR8-eF-ka4" secondAttribute="bottom" constant="3" id="QAd-Aa-nlX"/>
+                            <constraint firstAttribute="bottom" secondItem="KPe-T9-3PK" secondAttribute="bottom" constant="30" id="Qsl-kQ-exH"/>
+                            <constraint firstItem="KPe-T9-3PK" firstAttribute="top" secondItem="UUA-d2-FVK" secondAttribute="bottom" constant="10" id="SIT-gC-6gT"/>
+                            <constraint firstItem="UUA-d2-FVK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="150" id="Voh-x8-fNk"/>
+                            <constraint firstItem="KPe-T9-3PK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-30" id="YbL-sj-GMJ"/>
+                            <constraint firstItem="KPe-T9-3PK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="f1J-ra-lgw"/>
+                            <constraint firstAttribute="trailing" secondItem="UUA-d2-FVK" secondAttribute="trailing" id="tqV-er-eoe"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="humanButton" destination="kbF-oe-bpw" id="2L6-dU-Jy4"/>
+                        <outlet property="monsterButton" destination="VV1-QE-4Yz" id="zIi-so-f1y"/>
+                        <outlet property="robotButton" destination="mVq-uY-UYl" id="Vzx-zq-rYF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="alienFace" width="375" height="375"/>
+        <image name="broccoli" width="375" height="375"/>
+        <image name="burger" width="375" height="375"/>
+        <image name="carrots" width="375" height="375"/>
+        <image name="cereal" width="375" height="375"/>
+        <image name="cookie" width="375" height="375"/>
+        <image name="humanFace" width="375" height="375"/>
+        <image name="iceCream" width="375" height="375"/>
+        <image name="robotFace" width="375" height="375"/>
+        <namedColor name="customBlueGreenColor">
+            <color red="0.42745098039215684" green="0.86274509803921573" blue="0.81176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="customOrangeColor">
+            <color red="1" green="0.79607843137254897" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

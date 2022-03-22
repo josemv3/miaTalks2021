@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E012D3002665A10400C1552A /* CanBroccoliHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2E82665A10200C1552A /* CanBroccoliHuman.wav */; };
+		E012D3012665A10400C1552A /* CanBroccoliRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2E92665A10200C1552A /* CanBroccoliRobot.wav */; };
+		E012D3022665A10400C1552A /* CanBroccoliMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2EA2665A10200C1552A /* CanBroccoliMonster.wav */; };
+		E012D3032665A10400C1552A /* CanAppleHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2EB2665A10200C1552A /* CanAppleHuman.wav */; };
+		E012D3042665A10400C1552A /* CanAppleMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2EC2665A10300C1552A /* CanAppleMonster.wav */; };
+		E012D3052665A10400C1552A /* CanHamburgerRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2ED2665A10300C1552A /* CanHamburgerRobot.wav */; };
+		E012D3062665A10400C1552A /* CanCarrotRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2EE2665A10300C1552A /* CanCarrotRobot.wav */; };
+		E012D3072665A10400C1552A /* CanCarrotHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2EF2665A10300C1552A /* CanCarrotHuman.wav */; };
+		E012D3082665A10400C1552A /* CanHamburgerHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F02665A10300C1552A /* CanHamburgerHuman.wav */; };
+		E012D3092665A10400C1552A /* CanCerealMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F12665A10300C1552A /* CanCerealMonster.wav */; };
+		E012D30A2665A10400C1552A /* CanAppleRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F22665A10300C1552A /* CanAppleRobot.wav */; };
+		E012D30B2665A10400C1552A /* CanBananaMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F32665A10300C1552A /* CanBananaMonster.wav */; };
+		E012D30C2665A10400C1552A /* CanCerealRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F42665A10300C1552A /* CanCerealRobot.wav */; };
+		E012D30D2665A10400C1552A /* CanCookieHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F52665A10400C1552A /* CanCookieHuman.wav */; };
+		E012D30E2665A10400C1552A /* CanFrenchFriesMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F62665A10400C1552A /* CanFrenchFriesMonster.wav */; };
+		E012D30F2665A10400C1552A /* CanCookieMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F72665A10400C1552A /* CanCookieMonster.wav */; };
+		E012D3102665A10400C1552A /* CanBananaHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F82665A10400C1552A /* CanBananaHuman.wav */; };
+		E012D3112665A10400C1552A /* CanCarrotMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2F92665A10400C1552A /* CanCarrotMonster.wav */; };
+		E012D3122665A10400C1552A /* CanBananaRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2FA2665A10400C1552A /* CanBananaRobot.wav */; };
+		E012D3132665A10400C1552A /* CanCookieRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2FB2665A10400C1552A /* CanCookieRobot.wav */; };
+		E012D3142665A10400C1552A /* CanFrenchFriesRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2FC2665A10400C1552A /* CanFrenchFriesRobot.wav */; };
+		E012D3152665A10400C1552A /* CanHamburgerMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2FD2665A10400C1552A /* CanHamburgerMonster.wav */; };
+		E012D3162665A10400C1552A /* CanCerealHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2FE2665A10400C1552A /* CanCerealHuman.wav */; };
+		E012D3172665A10400C1552A /* CanFrenchFriesHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E012D2FF2665A10400C1552A /* CanFrenchFriesHuman.wav */; };
 		E09F8159264C77EB00648FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F8158264C77EB00648FF9 /* AppDelegate.swift */; };
 		E09F815B264C77EB00648FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F815A264C77EB00648FF9 /* SceneDelegate.swift */; };
 		E09F815D264C77EB00648FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F815C264C77EB00648FF9 /* ViewController.swift */; };
@@ -15,6 +39,11 @@
 		E09F8165264C77EC00648FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09F8163264C77EC00648FF9 /* LaunchScreen.storyboard */; };
 		E09F8170264C77ED00648FF9 /* miaTalks2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F816F264C77ED00648FF9 /* miaTalks2021Tests.swift */; };
 		E09F817B264C77ED00648FF9 /* miaTalks2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F817A264C77ED00648FF9 /* miaTalks2021UITests.swift */; };
+		E0B07FC02662F819006965DE /* I am hungry.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0B07FBB2662F819006965DE /* I am hungry.wav */; };
+		E0B07FC12662F819006965DE /* IceCreamMonster.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0B07FBC2662F819006965DE /* IceCreamMonster.wav */; };
+		E0B07FC22662F819006965DE /* IceCreamRobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0B07FBD2662F819006965DE /* IceCreamRobot.wav */; };
+		E0B07FC32662F819006965DE /* IceCreamHuman.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0B07FBE2662F819006965DE /* IceCreamHuman.wav */; };
+		E0B07FC42662F819006965DE /* Want ice cream.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0B07FBF2662F819006965DE /* Want ice cream.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +64,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E012D2E82665A10200C1552A /* CanBroccoliHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanBroccoliHuman.wav; sourceTree = "<group>"; };
+		E012D2E92665A10200C1552A /* CanBroccoliRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanBroccoliRobot.wav; sourceTree = "<group>"; };
+		E012D2EA2665A10200C1552A /* CanBroccoliMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanBroccoliMonster.wav; sourceTree = "<group>"; };
+		E012D2EB2665A10200C1552A /* CanAppleHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanAppleHuman.wav; sourceTree = "<group>"; };
+		E012D2EC2665A10300C1552A /* CanAppleMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanAppleMonster.wav; sourceTree = "<group>"; };
+		E012D2ED2665A10300C1552A /* CanHamburgerRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanHamburgerRobot.wav; sourceTree = "<group>"; };
+		E012D2EE2665A10300C1552A /* CanCarrotRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCarrotRobot.wav; sourceTree = "<group>"; };
+		E012D2EF2665A10300C1552A /* CanCarrotHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCarrotHuman.wav; sourceTree = "<group>"; };
+		E012D2F02665A10300C1552A /* CanHamburgerHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanHamburgerHuman.wav; sourceTree = "<group>"; };
+		E012D2F12665A10300C1552A /* CanCerealMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCerealMonster.wav; sourceTree = "<group>"; };
+		E012D2F22665A10300C1552A /* CanAppleRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanAppleRobot.wav; sourceTree = "<group>"; };
+		E012D2F32665A10300C1552A /* CanBananaMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanBananaMonster.wav; sourceTree = "<group>"; };
+		E012D2F42665A10300C1552A /* CanCerealRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCerealRobot.wav; sourceTree = "<group>"; };
+		E012D2F52665A10400C1552A /* CanCookieHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCookieHuman.wav; sourceTree = "<group>"; };
+		E012D2F62665A10400C1552A /* CanFrenchFriesMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanFrenchFriesMonster.wav; sourceTree = "<group>"; };
+		E012D2F72665A10400C1552A /* CanCookieMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCookieMonster.wav; sourceTree = "<group>"; };
+		E012D2F82665A10400C1552A /* CanBananaHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanBananaHuman.wav; sourceTree = "<group>"; };
+		E012D2F92665A10400C1552A /* CanCarrotMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCarrotMonster.wav; sourceTree = "<group>"; };
+		E012D2FA2665A10400C1552A /* CanBananaRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanBananaRobot.wav; sourceTree = "<group>"; };
+		E012D2FB2665A10400C1552A /* CanCookieRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCookieRobot.wav; sourceTree = "<group>"; };
+		E012D2FC2665A10400C1552A /* CanFrenchFriesRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanFrenchFriesRobot.wav; sourceTree = "<group>"; };
+		E012D2FD2665A10400C1552A /* CanHamburgerMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanHamburgerMonster.wav; sourceTree = "<group>"; };
+		E012D2FE2665A10400C1552A /* CanCerealHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanCerealHuman.wav; sourceTree = "<group>"; };
+		E012D2FF2665A10400C1552A /* CanFrenchFriesHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CanFrenchFriesHuman.wav; sourceTree = "<group>"; };
 		E09F8155264C77EB00648FF9 /* miaTalks2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miaTalks2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09F8158264C77EB00648FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E09F815A264C77EB00648FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +102,11 @@
 		E09F8176264C77ED00648FF9 /* miaTalks2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miaTalks2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09F817A264C77ED00648FF9 /* miaTalks2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miaTalks2021UITests.swift; sourceTree = "<group>"; };
 		E09F817C264C77ED00648FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B07FBB2662F819006965DE /* I am hungry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "I am hungry.wav"; sourceTree = "<group>"; };
+		E0B07FBC2662F819006965DE /* IceCreamMonster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IceCreamMonster.wav; sourceTree = "<group>"; };
+		E0B07FBD2662F819006965DE /* IceCreamRobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IceCreamRobot.wav; sourceTree = "<group>"; };
+		E0B07FBE2662F819006965DE /* IceCreamHuman.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = IceCreamHuman.wav; sourceTree = "<group>"; };
+		E0B07FBF2662F819006965DE /* Want ice cream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Want ice cream.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +161,7 @@
 				E09F815A264C77EB00648FF9 /* SceneDelegate.swift */,
 				E09F815C264C77EB00648FF9 /* ViewController.swift */,
 				E09F815E264C77EB00648FF9 /* Main.storyboard */,
+				E0B07FBA2662F7FD006965DE /* Sounds */,
 				E09F8161264C77EC00648FF9 /* Assets.xcassets */,
 				E09F8163264C77EC00648FF9 /* LaunchScreen.storyboard */,
 				E09F8166264C77EC00648FF9 /* Info.plist */,
@@ -126,6 +185,42 @@
 				E09F817C264C77ED00648FF9 /* Info.plist */,
 			);
 			path = miaTalks2021UITests;
+			sourceTree = "<group>";
+		};
+		E0B07FBA2662F7FD006965DE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E012D2EB2665A10200C1552A /* CanAppleHuman.wav */,
+				E012D2EC2665A10300C1552A /* CanAppleMonster.wav */,
+				E012D2F22665A10300C1552A /* CanAppleRobot.wav */,
+				E012D2F82665A10400C1552A /* CanBananaHuman.wav */,
+				E012D2F32665A10300C1552A /* CanBananaMonster.wav */,
+				E012D2FA2665A10400C1552A /* CanBananaRobot.wav */,
+				E012D2E82665A10200C1552A /* CanBroccoliHuman.wav */,
+				E012D2EA2665A10200C1552A /* CanBroccoliMonster.wav */,
+				E012D2E92665A10200C1552A /* CanBroccoliRobot.wav */,
+				E012D2EF2665A10300C1552A /* CanCarrotHuman.wav */,
+				E012D2F92665A10400C1552A /* CanCarrotMonster.wav */,
+				E012D2EE2665A10300C1552A /* CanCarrotRobot.wav */,
+				E012D2FE2665A10400C1552A /* CanCerealHuman.wav */,
+				E012D2F12665A10300C1552A /* CanCerealMonster.wav */,
+				E012D2F42665A10300C1552A /* CanCerealRobot.wav */,
+				E012D2F52665A10400C1552A /* CanCookieHuman.wav */,
+				E012D2F72665A10400C1552A /* CanCookieMonster.wav */,
+				E012D2FB2665A10400C1552A /* CanCookieRobot.wav */,
+				E012D2FF2665A10400C1552A /* CanFrenchFriesHuman.wav */,
+				E012D2F62665A10400C1552A /* CanFrenchFriesMonster.wav */,
+				E012D2FC2665A10400C1552A /* CanFrenchFriesRobot.wav */,
+				E012D2F02665A10300C1552A /* CanHamburgerHuman.wav */,
+				E012D2FD2665A10400C1552A /* CanHamburgerMonster.wav */,
+				E012D2ED2665A10300C1552A /* CanHamburgerRobot.wav */,
+				E0B07FBE2662F819006965DE /* IceCreamHuman.wav */,
+				E0B07FBB2662F819006965DE /* I am hungry.wav */,
+				E0B07FBC2662F819006965DE /* IceCreamMonster.wav */,
+				E0B07FBD2662F819006965DE /* IceCreamRobot.wav */,
+				E0B07FBF2662F819006965DE /* Want ice cream.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +326,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E012D3062665A10400C1552A /* CanCarrotRobot.wav in Resources */,
+				E012D3082665A10400C1552A /* CanHamburgerHuman.wav in Resources */,
+				E012D3102665A10400C1552A /* CanBananaHuman.wav in Resources */,
+				E012D3032665A10400C1552A /* CanAppleHuman.wav in Resources */,
+				E012D30B2665A10400C1552A /* CanBananaMonster.wav in Resources */,
+				E0B07FC42662F819006965DE /* Want ice cream.wav in Resources */,
+				E012D3152665A10400C1552A /* CanHamburgerMonster.wav in Resources */,
+				E0B07FC12662F819006965DE /* IceCreamMonster.wav in Resources */,
 				E09F8165264C77EC00648FF9 /* LaunchScreen.storyboard in Resources */,
 				E09F8162264C77EC00648FF9 /* Assets.xcassets in Resources */,
+				E012D3122665A10400C1552A /* CanBananaRobot.wav in Resources */,
+				E012D3072665A10400C1552A /* CanCarrotHuman.wav in Resources */,
+				E012D30D2665A10400C1552A /* CanCookieHuman.wav in Resources */,
+				E012D3112665A10400C1552A /* CanCarrotMonster.wav in Resources */,
+				E012D3042665A10400C1552A /* CanAppleMonster.wav in Resources */,
+				E012D3172665A10400C1552A /* CanFrenchFriesHuman.wav in Resources */,
 				E09F8160264C77EB00648FF9 /* Main.storyboard in Resources */,
+				E012D3022665A10400C1552A /* CanBroccoliMonster.wav in Resources */,
+				E012D3132665A10400C1552A /* CanCookieRobot.wav in Resources */,
+				E012D3052665A10400C1552A /* CanHamburgerRobot.wav in Resources */,
+				E0B07FC22662F819006965DE /* IceCreamRobot.wav in Resources */,
+				E012D3142665A10400C1552A /* CanFrenchFriesRobot.wav in Resources */,
+				E012D3162665A10400C1552A /* CanCerealHuman.wav in Resources */,
+				E0B07FC32662F819006965DE /* IceCreamHuman.wav in Resources */,
+				E012D30C2665A10400C1552A /* CanCerealRobot.wav in Resources */,
+				E012D3012665A10400C1552A /* CanBroccoliRobot.wav in Resources */,
+				E012D3002665A10400C1552A /* CanBroccoliHuman.wav in Resources */,
+				E012D3092665A10400C1552A /* CanCerealMonster.wav in Resources */,
+				E012D30F2665A10400C1552A /* CanCookieMonster.wav in Resources */,
+				E0B07FC02662F819006965DE /* I am hungry.wav in Resources */,
+				E012D30E2665A10400C1552A /* CanFrenchFriesMonster.wav in Resources */,
+				E012D30A2665A10400C1552A /* CanAppleRobot.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +563,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDDDA27M89;
 				INFOPLIST_FILE = miaTalks2021/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QDDDA27M89;
 				INFOPLIST_FILE = miaTalks2021/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
